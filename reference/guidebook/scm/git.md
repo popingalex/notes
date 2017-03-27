@@ -36,5 +36,15 @@ git merge dev 合并dev到当前分支
 
 git branch -d dev 删除 dev分支
 
-dev
-test
+git merge --no-ff -m 可以保存合并历史 dev 合并dev到当前分支
+
+git stash
+git stash apply and drop 取出然后删除
+git stash pop 弹出
+
+git tag 标签 (SHA)
+git tag -a 标签 -m 信息
+git push origin 标签名
+git push origin --tags
+
+https://github.com/github/gitignore
