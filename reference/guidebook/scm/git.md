@@ -37,3 +37,4 @@ git merge dev 合并dev到当前分支
 git branch -d dev 删除 dev分支
 
 dev
+test
